@@ -6,6 +6,10 @@
   --dark-shade: #082552;
   --tokenize-bg-color: #A7C0D1;
   --btn-container-bg-color:#3A76F5;
+  --white-color: #ffffff;
+  --light-shade:#6C82A3;
+  --foundation: #FFCB35;
+  --testimonial-bg: #EBF1FE;
 }
 
 
@@ -262,3 +266,100 @@ body{
 
 
 /* end of div containing two images,  two paragraphs, and h4 and ul */
+
+.container-bigstep {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #010813;
+  margin-top: 25em;
+  color: var(--white-color);
+  font-family: var(--euclid-circular-a-regular);
+  position: relative;
+}
+
+.bigstep-text-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.el-text {
+  margin: 5em;
+}
+.el-text p {
+  font-size: 0.755em;
+  line-height: 4;
+
+}
+.el-text h4 {
+  font-size: 3em;
+}
+.bigstep-text-img img {
+  width: 500px;
+}
+
+.grid-element {
+  display: grid;
+  gap: 5em;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(2, 2fr);
+  padding: 5em;
+}
+
+.grid-element span {
+  position: relative;
+  top: 0;
+  font-size: 1.5em;
+  left: -1.5em;
+}
+
+.grid-element p {
+  margin-top: 1em;
+}
+
+.line-horizontal-1 {
+  border: 1px solid var(--white-color);
+  max-width: 92.8%;
+  margin: auto;
+  margin-left: 3.5em;
+}
+
+.line-horizontal-2 {
+  border: 1px solid var(--white-color);
+  position: relative;
+  top: 26em;
+  max-width: 92.8%;
+  margin: auto;
+  margin-left: 3.5em;
+}
+.line-vertical-1{
+  width: 0;
+  height: 100%;
+  border: 1px solid var(--white-color);
+  margin: 0 3.3em;
+  position: absolute;
+  top: 0;
+}
+.line-vertical-2{
+  width: 0;
+  height:71%;
+  border: 1px solid var(--white-color);
+  position: absolute;
+  top: 2;
+  left: 25em;
+}
+.line-vertical-3{
+  width: 0;
+  height:71%;
+  border: 1px solid var(--white-color);
+  position: absolute;
+  top: 2;
+  left: 50em;
+}
+.line-vertical-4{
+  width: 0;
+  height: 100%;
+  border: 1px solid var(--white-color);
+  position: absolute;
+  top: 0;
+  left: 73em;
+}

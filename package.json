@@ -10,20 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "embla-carousel-autoplay": "^8.0.0-rc12",
     "embla-carousel-react": "^8.0.0-rc12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-=======
-    "aos": "^2.3.4",
-    "embla-carousel-autoplay": "^8.0.0-rc12",
-    "embla-carousel-react": "^8.0.0-rc12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0",
-    "swiper": "^10.2.0"
->>>>>>> f4db1a7 (new-update)
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

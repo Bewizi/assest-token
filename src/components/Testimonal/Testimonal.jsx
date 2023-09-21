@@ -1,39 +1,19 @@
 // import React, { useRef, useState } from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+// import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
 
 // import required modules
-import { Autoplay, FreeMode } from 'swiper/modules';
+import { Autoplay, FreeMode } from "swiper/modules";
+// import { Pagination } from 'swiper/modules';
 
-import {FaQuoteRight} from 'react-icons/fa';
-
-const testimonialdata = [
-  {
-    id: 1,
-    icons: <FaQuoteRight/>,
-    Header:"Straightfoward & Great Platform ",
-    description: "Tokenized real estate is a game-changer! I love how I can invest in properties worldwide without the hassle of managing them. The platform is user-friendly, and the returns have been fantastic",
-    Image:'images/Forex-trader.png',
-    name:'Micheal Tims',
-    profession:'Forex Trader'
-  },
-  {
-    id: 2,
-    icons: <FaQuoteRight/>,
-    Header:"Highly Recommended",
-    description: "I have always wanted to invest in real estate, but the high entry barriers and lack of liquidity deterred me. That's when I found this tokenized real estate investment website. It's been a game-changer! I can now easily diversify my portfolio with fractional ownership, and the ability to trade tokens provides great liquidity."
-  },
-  {
-    id: 3,
-    icons: <FaQuoteRight/>,
-    Header:"Easy and Secure",
-    description: "As a first-time investor, I was initially skeptical about tokenized real estate. However, this platform exceeded my expectations. The customer support team guided me through the process, and now I feel confident in my investment choices."
-  },
-]
+import { FaQuoteRight } from "react-icons/fa";
 
 import "./Testimonal.css";
-
-
 
 function Testimonal() {
   return (
@@ -41,35 +21,114 @@ function Testimonal() {
       <div className="testimonial-content">
         <h5>Join Tayo and Many Others Who Have Found Success</h5>
       </div>
-        <div>
-          {
-            testimonialdata.map((testimonialobj) =>(
-              <div key={testimonialobj}>
-                <h4><i>{testimonialobj.icons}</i>{testimonialobj.Header}</h4>
-                <p>{testimonialobj.description}</p>
-                <div>
-                <img src={testimonialobj.Image} alt="" /> <p>{testimonialobj.name}</p>
-                <a>{testimonialobj.profession}</a>
-                </div>
+      <div>
+        <Swiper
+          slidesPerView={"auto"}
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
+          freeMode={true}
+          modules={[Autoplay, FreeMode]}
+          className="mySwiper"
+        >
+
+        {/* slider one */}
+          <SwiperSlide className="testiominal-el">
+            <div className="testimonial-1">
+              <div className="testimony-person-1">
+                <i>
+                  <FaQuoteRight />
+                </i>
+                <h4>Straightfoward & Great Platform</h4>
               </div>
-            ))
-          }
-          <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        freeMode={true}
-        modules={[Autoplay, FreeMode]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-      </Swiper>
-        </div>
+              <p className="client-testimony">
+                Tokenized real estate is a game-changer! I love how I can invest
+                in properties worldwide without the hassle of managing them. The
+                platform is user-friendly, and the returns have been fantastic
+              </p>
+              <div className="client-image">
+                <img
+                  className="image"
+                  src="images/Forex-trader.png"
+                  alt="Micheal Tims"
+                />
+                <p>
+                  Micheal Tims<span>Forex Trader</span>
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+        {/* end slider one */}
+
+        {/* slider two */}
+
+          <SwiperSlide className="testiominal-el">
+            <div className="testimonial-1">
+              <div className="testimony-person-1">
+                <i>
+                  <FaQuoteRight />
+                </i>
+                <h4>Straightfoward & Great Platform</h4>
+              </div>
+              <p className="client-testimony">
+                Tokenized real estate is a game-changer! I love how I can invest
+                in properties worldwide without the hassle of managing them. The
+                platform is user-friendly, and the returns have been fantastic
+              </p>
+              <div className="client-image">
+                <img
+                  className="image"
+                  src="images/Forex-trader.png"
+                  alt="Micheal Tims"
+                />
+                <p>
+                  Micheal Tims<span>Forex Trader</span>
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+        {/*end of slider two */}
+
+          {/* slider three */}
+          <SwiperSlide className="testiominal-el">
+            <div className="testimonial-1">
+              <div className="testimony-person-1">
+                <i>
+                  <FaQuoteRight />
+                </i>
+                <h4>Straightfoward & Great Platform</h4>
+              </div>
+              <p className="client-testimony">
+                Tokenized real estate is a game-changer! I love how I can invest
+                in properties worldwide without the hassle of managing them. The
+                platform is user-friendly, and the returns have been fantastic
+              </p>
+              <div className="client-image">
+                <img
+                  className="image"
+                  src="images/Forex-trader.png"
+                  alt="Micheal Tims"
+                />
+                <p>
+                  Micheal Tims<span>Forex Trader</span>
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          {/* <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide> */}
+        </Swiper>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+import AOS from "aos";
+
 const RealEstateDream = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
 
     // container of AssetToken combines the power of blockchain technology and the real estate market
@@ -6,10 +12,10 @@ const RealEstateDream = () => {
 
     {/* div containing two images,  two paragraphs, and h4 and ul  */}
       <div className="garden-location">
-        <img src="images/beautiful-garden-around-house.png" alt="" />
-        <img src="images/location-of-land.png" alt="" />
+        <img src="images/beautiful-garden-around-house.png" alt="Beautiful Garden Around a House" data-aos="fade-right"/>
+        <img src="images/location-of-land.png" alt="Location of Land" data-aos="fade-left"/>
       </div>
-      <div className="achieve">
+      <div className="achieve" data-aos="flip-left">
         <p>We Help You Achieve Your</p>
         <p>Real Estate Dreams</p>
       </div>

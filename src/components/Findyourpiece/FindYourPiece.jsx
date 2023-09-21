@@ -4,7 +4,7 @@ function FindYourPiece() {
   return (
     <div className="own-a-piece">
       <h4>Get Started Now and Own a Piece of Tomorrow</h4>
-      <img src="images/Big-Happy-Family.png" alt="" />
+      <img src="images/Big-Happy-Family.png" alt="Big Happy Family" />
       <div className="own-a-piece-list">
         <div className="own-a-piece-list-el">
           <ul>

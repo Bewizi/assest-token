@@ -1,9 +1,14 @@
 import { useEffect } from "react";
 import AOS from "aos";
+// import 'aos/dist/aos.css'                                                  
+
 import { FiArrowRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
 import { LuArrowUpRight } from "react-icons/lu";
 import "./Explore.css";
+
+
+
 function Explore() {
   useEffect(() => {
     AOS.init({ duration: 2000 });

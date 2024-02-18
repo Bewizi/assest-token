@@ -1,12 +1,56 @@
+@font-face {
+  font-family: "Gold West";
+  src: url(/fonts/gold-west.otf);
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url(/fonts/EUCLID\ CIRCULAR\ A\ REGULAR.ttf);
+}
+
+:root {
+  --dark-shade: #082552;
+  --dark-blue: #010813cc;
+  --royal-blue: #3a76f5;
+  --light-steel-blue: #a7c0d1;
+  --white: #fff;
+}
+
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 li,
 a {
   list-style: none;
   text-decoration: none;
-  color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.logo h1 {
+  font-family: "Gold West", sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+#hero-section {
+  padding-top: 10rem;
+}
+
+.cta {
+  margin-top: 3.5rem;
+}
+
+.hero-img {
+  margin-top: 1rem;
 }

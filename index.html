@@ -3,28 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style -->
     <link rel="stylesheet" href="css/index.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Asset Token Real Estate</title>
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <!-- logo -->
-      <div>
-        <img src="svg/logo-icon.svg" alt="" />
+      <div class="logo">
+        <img src="svg/logo-icon.svg" alt="Logo" />
         <h1>AssetToken</h1>
       </div>
       <!-- nav -->
-      <nav>
+      <nav class="nav-list">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Investment</a></li>
-          <li><a href="#">Property</a></li>
-          <li><a href="#">Dashbord</a></li>
-          <li><a href="#">Resources</a></li>
+          <li><a href="#" class="link-list">About</a></li>
+          <li><a href="#" class="link-list">Investment</a></li>
+          <li><a href="#" class="link-list">Property</a></li>
+          <li><a href="#" class="link-list">Dashbord</a></li>
+          <li><a href="#" class="link-list">Resources</a></li>
         </ul>
       </nav>
+
+      <!-- login and sign up  -->
+      <div class="auth-buttons">
+        <a href="#" id="loginBtn" class="btn">Login</a>
+        <a href="#" id="loginBtn" class="btn">Sign Up For Free</a>
+      </div>
     </header>
+    <!--  -->
+    <!--  main section -->
+    <main>
+      <!-- hero section -->
+      <section id="hero-section">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-header">
+              Tokenize
+
+              <img
+                src="images/house-hand-with-coin-real-estate-investment-.png"
+                alt="House Hand with coin"
+                class="hero-image-header"
+              />
+
+              Your Future
+
+              <img
+                src="/images/duplex.png"
+                alt="Duplex House"
+                class="hero-image-header"
+              />
+
+              Invest Smarter
+            </h1>
+          </div>
+          <!--  -->
+          <p class="hero-text">
+            Take advantage of fractional ownership and join the growing
+            community of digital real estate investors.
+          </p>
+          <!--  -->
+          <div class="cta">
+            <a class="btn-hero" href="/"
+              >Start Investing <i class="ri-arrow-right-s-fill"></i
+            ></a>
+          </div>
+        </div>
+        <!-- hero image -->
+        <div>
+          <img src="/images/hero-img.png" alt="Hero Image" class="hero-img" />
+        </div>
+      </section>
+      <!-- vision and mission -->
+      <section class="goals">
+        <div>
+          <div>
+            <img
+              src="/images/Glass-Duplex-House.png"
+              alt="Glass Duplex House"
+            />
+            <img src="/images/Location-of-land.png" alt="Land Location" />
+          </div>
+        </div>
+      </section>
+    </main>
     <!--  -->
     <script src="main.js"></script>
   </body>

@@ -57,17 +57,30 @@
   gap: 2rem;
 }
 
-.btn:link,
-.btn:visited {
+.login:link,
+.login:visited {
   color: var(--royal-blue);
 }
-.btn:hover,
-.btn:active {
+.login:hover,
+.login:active {
   background-color: var(--royal-blue);
   color: #fff;
   padding: 0.8rem 1.5rem;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
+}
+.signup:link,
+.signup:visited {
+  background-color: var(--royal-blue);
+  padding: 0.8rem 1.5rem;
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.signup:hover,
+.signup:active {
+  background-color: #0e307bd2;
+  transition: all 0.5s ease-in-out;
 }
 /* end of header */
 
@@ -139,6 +152,9 @@
 }
 .goals-img {
   width: 20rem;
+  /* opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 1s, opacity 1s; */
 }
 
 .goals-text {
@@ -199,6 +215,7 @@
 .offer-header-text p {
   font-size: 3rem;
   width: 35rem;
+  margin-top: 1.5rem;
 }
 
 .num {
@@ -365,6 +382,7 @@ button {
   font-size: 1.5rem;
   margin-bottom: 3rem;
   color: var(--dark-shade);
+  cursor: pointer;
 }
 .reg-category li:last-child {
   margin-bottom: 0;

@@ -88,6 +88,17 @@ h4 {
   padding-top: 15rem;
 }
 
+#get-started {
+  padding-top: 15rem;
+}
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(16rem, 1fr));
+
+  gap: 4rem;
+}
+
 .grid-3-col {
   display: grid;
   grid-template-columns: repeat(3, minmax(20rem, 1fr));
@@ -103,4 +114,12 @@ h4 {
 
 .hero-img {
   margin-top: 1rem;
+}
+
+.description-center {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
 }

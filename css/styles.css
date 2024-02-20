@@ -346,3 +346,52 @@ button {
   border-radius: 50%;
   padding: 0.25rem 0.35rem;
 }
+
+/*
+************************* 
+************************* 
+ */
+
+/*  */
+
+.registration {
+  padding-top: 5rem;
+  border: 1px solid var(--light-shade);
+}
+.reg-category {
+  padding: 4rem 0 4rem 10rem;
+}
+.reg-category li {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: var(--dark-shade);
+}
+.reg-category li:last-child {
+  margin-bottom: 0;
+}
+
+.registration-group {
+  background-color: var(--dark-blue-main);
+  color: var(--white);
+  padding: 4rem 5rem 0 5rem;
+}
+
+.reg-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.reg-description {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.reg-btn:link,
+.reg-btn:visited {
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 0.45rem 1.5rem;
+  border-radius: 5px;
+}

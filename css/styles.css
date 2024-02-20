@@ -71,6 +71,11 @@
 }
 /* end of header */
 
+/*
+************************* 
+************************* 
+ */
+
 /* hero section */
 .hero-container {
   max-width: 64rem;
@@ -118,3 +123,69 @@
 .btn-hero:active {
   color: var(--white);
 }
+
+/*
+************************* 
+************************* 
+ */
+
+/* vision and mission */
+
+/* goals img */
+.vision-mission-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goals-img {
+  width: 20rem;
+}
+
+.goals-text {
+  position: absolute;
+  top: 9.5rem;
+  left: 38%;
+  transform: translate(-32%, -7%);
+  text-align: center; /* Positioning in the middle vertically and horizontally */
+}
+
+.card {
+  background-color: var(--royal-blue);
+  color: var(--white);
+  padding: 2rem;
+  width: 30.5%;
+  border-radius: 5px;
+  position: absolute;
+  top: 26.5rem;
+  left: 38%;
+  transform: translate(-10%, -7%);
+}
+
+.card-text {
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.review {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.review-text {
+  font-size: 0.75rem;
+}
+
+/*
+************************* 
+************************* 
+ */
+
+/*  */

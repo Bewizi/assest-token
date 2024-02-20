@@ -43,8 +43,25 @@ a {
   font-family: "Euclid Circular A", sans-serif;
 }
 
+h2 {
+  font-family: "Euclid Circular A", sans-serif;
+  font-size: 3.8rem;
+  color: var(--dark-shade);
+}
+
+.container {
+  max-width: 75rem;
+  margin: auto;
+}
+
 #hero-section {
   padding-top: 10rem;
+}
+
+#goals {
+  padding-top: 10rem;
+  position: relative;
+  font-family: "Euclid Circular A", sans-serif;
 }
 
 .cta {

@@ -11,15 +11,23 @@
 :root {
   --dark-shade: #082552;
   --dark-blue: #010813cc;
+  --dark-blue-main: #010813;
   --royal-blue: #3a76f5;
   --light-steel-blue: #a7c0d1;
-  --white: #fff;
+  --light-shade: rgba(108, 130, 163, 1);
+  --sunglow: #ffcb35;
+
+  --white: rgba(255, 255, 255, 1);
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+}
+
+body {
+  font-family: "Euclid Circular A", sans-serif;
 }
 
 li,
@@ -49,6 +57,11 @@ h2 {
   color: var(--dark-shade);
 }
 
+h4 {
+  line-height: 1.5;
+  font-size: 1.15rem;
+}
+
 .container {
   max-width: 75rem;
   margin: auto;
@@ -60,8 +73,28 @@ h2 {
 
 #goals {
   padding-top: 10rem;
+  margin-bottom: 15rem;
   position: relative;
   font-family: "Euclid Circular A", sans-serif;
+}
+
+#features {
+  font-family: "Euclid Circular A", sans-serif;
+  background-color: var(--dark-blue-main);
+  color: var(--white);
+}
+
+#properties {
+  padding-top: 15rem;
+}
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(20rem, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 5rem;
 }
 
 .cta {

@@ -189,3 +189,149 @@
  */
 
 /*  */
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-header-text p {
+  font-size: 3rem;
+  width: 35rem;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0.65rem;
+  display: block;
+}
+
+.features-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+/*
+************************* 
+************************* 
+ */
+
+/*  */
+.properties-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.properties-subtitle {
+  width: 19rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 0.85;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.button {
+  background-color: var(--royal-blue);
+  color: var(--white);
+  padding: 0.45rem 2.5rem;
+  border-radius: 5px;
+}
+
+.White-house-img {
+  width: 88%;
+}
+
+.properties-content {
+  border: 1px solid var(--light-shade);
+  padding: 2rem;
+  width: 30rem;
+}
+
+.property-name {
+  font-weight: 600;
+  color: var(--dark-shade);
+  margin-bottom: 1rem;
+}
+
+.property-description {
+  color: var(--dark-blue);
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.location {
+  color: var(--light-shade);
+  margin-bottom: 1rem;
+}
+.location i {
+  color: var(--sunglow);
+  margin-right: 1rem;
+}
+
+.property-size {
+  color: var(--light-shade);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 2.5;
+}
+
+.property-feet {
+  color: var(--dark-shade);
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.property-meter {
+  color: var(--dark-shade);
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.property-features-list li {
+  list-style: disc;
+  font-weight: lighter;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.property-features-list li::marker {
+  color: var(--sunglow);
+}
+.property-features-list li:last-child {
+  margin-bottom: 2rem;
+}
+
+.property-features-header {
+  color: var(--dark-shade);
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.explore-btn {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.5rem;
+}
+.explore-btn p {
+  color: rgba(1, 8, 19, 0.65);
+  font-size: 0.85rem;
+}
+.upright-arr {
+  background: linear-gradient(
+    180deg,
+    #3a76f5 30.21%,
+    rgba(255, 203, 53, 0.8) 100%
+  );
+  color: var(--white);
+  border-radius: 50%;
+  padding: 0.25rem 0.35rem;
+}

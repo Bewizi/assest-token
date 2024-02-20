@@ -220,7 +220,7 @@
 ************************* 
  */
 
-/*  */
+/* proeties details */
 .properties-header {
   display: flex;
   justify-content: space-between;
@@ -250,10 +250,20 @@ button {
   width: 88%;
 }
 
+.properties-image {
+  position: relative;
+  margin-top: 5rem;
+}
+
+/* property content */
 .properties-content {
   border: 1px solid var(--light-shade);
   padding: 2rem;
   width: 30rem;
+  background-color: var(--white);
+  right: 0;
+  position: absolute;
+  top: 5%;
 }
 
 .property-name {
@@ -320,6 +330,7 @@ button {
   /* justify-content: center; */
   align-items: center;
   gap: 0.5rem;
+  padding-bottom: 1rem;
 }
 .explore-btn p {
   color: rgba(1, 8, 19, 0.65);

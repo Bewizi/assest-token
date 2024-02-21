@@ -16,8 +16,8 @@
   --light-steel-blue: #a7c0d1;
   --light-shade: rgba(108, 130, 163, 1);
   --sunglow: #ffcb35;
-
   --white: rgba(255, 255, 255, 1);
+  --light-pale-pink: #ebf1fe;
 }
 
 * {
@@ -92,10 +92,15 @@ h4 {
   padding-top: 15rem;
 }
 
+#testimonials {
+  background-color: var(--light-pale-pink);
+  margin-top: 15rem;
+  padding: 10rem 0;
+}
+
 .grid-2-col {
   display: grid;
   grid-template-columns: repeat(2, minmax(16rem, 1fr));
-
   gap: 4rem;
 }
 

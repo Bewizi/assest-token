@@ -413,3 +413,47 @@ button {
   padding: 0.45rem 1.5rem;
   border-radius: 5px;
 }
+
+/*
+************************* 
+************************* 
+ */
+
+/* testimonials */
+.testimonies {
+  background-color: var(--royal-blue);
+  color: var(--white);
+  padding: 1rem 2rem 0.5rem 2rem;
+  width: 35rem;
+}
+.testimonies i {
+  color: var(--sunglow);
+  font-size: 2.4rem;
+}
+
+.cust-review {
+  display: flex;
+  /* justify-content: center; */
+  gap: 0.875rem;
+  align-items: center;
+}
+.cust-review i {
+  color: var(--sunglow);
+  font-size: 3.2rem;
+}
+.cust-review h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.cust-name-profession {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.customer {
+  background-color: var(--white);
+  width: 10%;
+  border-radius: 50%;
+  padding-top: 0.625rem;
+}

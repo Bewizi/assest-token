@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-
+    <!-- style -->
+    <link rel="stylesheet" href="/loginpage/index.css" />
     <!-- icon -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -13,12 +15,14 @@
     <title>Login</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <form action="">
-        <div><img src="/svg/logo-icon.svg" alt="Logo" /></div>
+        <div class="logo">
+          <img src="/svg/logo-icon.svg" alt="Logo" />
+        </div>
         <!--  -->
         <label for="email">Email</label>
-        <div>
+        <div class="f-input">
           <i class="ri-mail-line"></i>
           <input
             type="email"
@@ -27,18 +31,34 @@
             placeholder="Enter your email address"
           />
         </div>
+        <!--  -->
         <label for="email">Password</label>
-        <div>
-          <i class="ri-mail-line"></i>
+        <div class="f-input">
+          <i class="ri-lock-2-line"></i>
           <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
           />
+          <i class="ri-eye-off-line"></i>
+        </div>
+        <!-- button -->
+        <div class="btn-box">
+          <button type="submit">Login</button>
+        </div>
+        <!--  -->
+        <div class="home-fgt">
+          <a href="/index.html" class="link bck-home">Go Back Home</a>
+          <a href="#" class="link fgt-pass">Forgot Password?</a>
+        </div>
+        <!-- check btn -->
+        <div class="checkbox">
+          <input type="checkbox" name="remember" id="remember" />
+          Remember me
         </div>
       </form>
     </div>
-    <h2>hello</h2>
+    <script src="../crossjs.js"></script>
   </body>
 </html>

@@ -60,14 +60,13 @@ a {
   flex-direction: row;
   /* gap: 1rem; */
   justify-content: space-between;
-  justify-items: center;
+  align-items: center;
   border: 1px solid var(--light-shade);
   border-radius: 5px;
   padding: 6px;
-}
-.f-input {
   margin-bottom: 1rem;
 }
+
 .f-input i {
   color: var(--light-shade);
 }

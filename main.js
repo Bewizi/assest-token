@@ -25,7 +25,7 @@ function updateContent(category) {
           KYC helps verify the identity of investors and prevents
           potential fraudulent activities.
         </p>
-        <a href="/" class="reg-btn">Sign Up Now</a>
+        <a href="/signuppage/signup.html" class="reg-btn">Sign Up Now</a>
       `;
       break;
 
@@ -75,7 +75,7 @@ function updateContent(category) {
         <p class="reg-description">
         Access your personalized dashboard to monitor your investment portfolio. Track property performance, token value, and potential returns, all in one place.
         </p>
-        <a href="/" class="reg-btn">Sign Up Now</a>
+        <a href="/signuppage/signup.html" class="reg-btn">Sign Up Now</a>
       `;
       break;
 

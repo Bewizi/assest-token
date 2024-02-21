@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url(/fonts/EUCLID\ CIRCULAR\ A\ REGULAR.ttf);
+}
+
+:root {
+  --light-shade: rgba(108, 130, 163, 1);
+  --lavender-blue: #8db0f9;
+  --white: #ffffff;
+  --royal-blue: #3a76f5;
+  --dark-shade: #082552;
+  --light-pale-pink: #ebf1fe;
+}
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+label {
+  font-size: 0.8rem;
+  color: var(--light-shade);
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  color: var(--white);
+}
+
+/*  */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding: 0 10%;
+}
+
+.f-input-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.f-input-header h2 {
+  color: var(--dark-shade);
+  font-weight: bolder;
+}
+.f-input-header p {
+  color: var(--light-shade);
+  margin-bottom: 3rem;
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+
+.f-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--light-shade);
+  border-radius: 5px;
+  padding: 6px;
+  margin-bottom: 1rem;
+}
+.f-input i {
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+  color: var(--light-shade);
+}
+
+.f-input input {
+  width: 100%;
+  padding: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.f-input input:focus {
+  border: none;
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--royal-blue);
+  padding: 0.7rem 0;
+  border-radius: 5px;
+  margin-top: 5rem;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--light-shade);
+  margin-top: 1rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.video a:link,
+.video a:visited {
+  color: var(--light-shade);
+  font-size: 0.875rem;
+}
+.video a:hover,
+.video a:active {
+  color: var(--light-shade);
+}
+.play {
+  background: linear-gradient(
+    180deg,
+    #3a76f5 30.21%,
+    rgba(255, 203, 53, 0.8) 100%
+  );
+  color: var(--white);
+  border-radius: 50%;
+  padding: 0.25rem 0.35rem;
+}

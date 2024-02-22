@@ -35,7 +35,7 @@ function updateContent(category) {
         <p class="reg-description">
         Browse through a curated selection of tokenized real estate properties. Each property listing includes relevant details such as location, property type, investment cost, expected returns, and so on Our platform offers a diverse range of properties, from residential to commercial, ensuring there's something that aligns with your investment goals.
         </p>
-        <a href="/" class="reg-btn">Sign Up Now</a>
+        <a href="/signuppage/signup.html" class="reg-btn">Sign Up Now</a>
       `;
       break;
 
@@ -45,7 +45,7 @@ function updateContent(category) {
         <p class="reg-description">
         Click on properties of interest to access comprehensive details. Learn about the property's location, market value, potential returns, and more. Our detailed information empowers you to make informed investment decisions. Delve into our educational resources to understand how tokenization works. Grasp the concept of turning real estate assets into digital tokens, making fractional ownership and trading possible
         </p>
-        <a href="/" class="reg-btn">Sign Up Now</a>
+        <a href="/signuppage/signup.html" class="reg-btn">Sign Up Now</a>
       `;
       break;
 
@@ -55,7 +55,7 @@ function updateContent(category) {
         <p class="reg-description">
         Once you've found the perfect property, it's time to invest. Choose the number of tokens you wish to purchase based on your budget and the property's tokenization structure. With a few clicks, confirm your investment. Our secure payment gateway accepts various payment methods including cryptocurrencies and traditional fiat currencies, providing you with convenience and peace of mind.
         </p>
-        <a href="/" class="reg-btn">Sign Up Now</a>
+        <a href="/signuppage/signup.html" class="reg-btn">Sign Up Now</a>
       `;
       break;
 
@@ -65,7 +65,7 @@ function updateContent(category) {
         <p class="reg-description">
         Before finalizing your investment, review the legal documentation associated with the property. This step ensures transparency and clarifies your rights and responsibilities as a token holder.
         </p>
-        <a href="/" class="reg-btn">Sign Up Now</a>
+        <a href="/signuppage/signup.html" class="reg-btn">Sign Up Now</a>
       `;
       break;
 

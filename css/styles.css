@@ -423,7 +423,7 @@ button {
 .testimonies {
   background-color: var(--royal-blue);
   color: var(--white);
-  padding: 1rem 2rem 0.5rem 2rem;
+  padding: 1rem 0 0.5rem 0;
   width: 35rem;
 }
 .testimonies i {
@@ -436,6 +436,7 @@ button {
   /* justify-content: center; */
   gap: 0.875rem;
   align-items: center;
+  padding-left: 1rem;
 }
 .cust-review i {
   color: var(--sunglow);
@@ -450,10 +451,25 @@ button {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-top: 2rem;
 }
 .customer {
   background-color: var(--white);
   width: 10%;
   border-radius: 50%;
   padding-top: 0.625rem;
+}
+
+.px {
+  padding-left: 4.95rem;
+}
+.px p {
+  line-height: 1.5;
+}
+
+.customer-name {
+  font-size: 1.2rem;
+}
+.customer-profession {
+  font-size: 0.867rem;
 }

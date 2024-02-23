@@ -423,12 +423,9 @@ button {
 .testimonies {
   background-color: var(--royal-blue);
   color: var(--white);
-  padding: 1rem 0 0.5rem 0;
+  padding: 1rem 0 1rem 0;
   width: 35rem;
-}
-.testimonies i {
-  color: var(--sunglow);
-  font-size: 2.4rem;
+  border-radius: 5px;
 }
 
 .cust-review {
@@ -472,4 +469,16 @@ button {
 }
 .customer-profession {
   font-size: 0.867rem;
+}
+
+/* blog post */
+.blog-text {
+  font-size: 1.15rem;
+  color: var(--dark-shade);
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.blog-text span {
+  text-decoration: underline;
 }

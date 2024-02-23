@@ -28,7 +28,6 @@
 
 body {
   font-family: "Euclid Circular A", sans-serif;
-  overflow: hidden;
 }
 
 li,
@@ -97,13 +96,22 @@ h4 {
   background-color: var(--light-pale-pink);
   margin-top: 15rem;
   padding: 10rem 0;
+  overflow: hidden;
+}
+
+#blog {
+  margin-top: 10rem;
+}
+
+#community {
+  margin-top: 10rem;
 }
 
 .flex {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
-  /* gap: 5rem; */
+  gap: 1rem;
 }
 
 .grid-2-col {
@@ -140,4 +148,8 @@ h4 {
   font-size: 2.8rem;
   margin-bottom: 2.5rem;
   line-height: 1.5;
+}
+
+.mt {
+  margin-top: 1.5rem;
 }

@@ -491,8 +491,10 @@ button {
 .community-one {
   background-color: var(--royal-blue);
   padding-top: 10rem;
-  padding-inline: 6rem;
+  padding-bottom: 5rem;
+  padding-inline: 8rem;
   color: var(--white);
+  border-top-left-radius: 5px;
 }
 .community-one h2 {
   color: var(--white);
@@ -508,15 +510,24 @@ button {
 .community-two {
   background-color: var(--light-pale-pink);
   gap: 0;
-}
-
-.community-image {
-  /* padding-inline: 0.45rem; */
+  padding-top: 5rem;
 }
 
 .community-image img {
   background-color: var(--white);
   border-radius: 5px;
-  padding: 0.758rem;
-  width: 12.2rem;
+  padding: 0.458rem;
+  width: 10.2rem;
+}
+
+.image-left {
+  transform: translate(6rem, 1rem);
+}
+
+.image-right {
+  transform: translate(1rem, -0.5rem);
+}
+
+.image-center {
+  transform: translate(12.675rem);
 }

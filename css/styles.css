@@ -482,3 +482,41 @@ button {
 .blog-text span {
   text-decoration: underline;
 }
+
+/* community */
+.community {
+  align-items: normal;
+  gap: 0;
+}
+.community-one {
+  background-color: var(--royal-blue);
+  padding-top: 10rem;
+  padding-inline: 6rem;
+  color: var(--white);
+}
+.community-one h2 {
+  color: var(--white);
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.community-one p {
+  font-size: 0.9375rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.community-two {
+  background-color: var(--light-pale-pink);
+  gap: 0;
+}
+
+.community-image {
+  /* padding-inline: 0.45rem; */
+}
+
+.community-image img {
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 0.758rem;
+  width: 12.2rem;
+}

@@ -155,9 +155,40 @@ h4 {
   line-height: 1.5;
 }
 
+/* margin-top */
 .mt {
   margin-top: 1.5rem;
 }
+
+/* line */
+.line {
+  width: 39.45rem;
+  height: 0.1125rem;
+  background: var(--light-shade);
+}
+
+.line-1 {
+  transform: translate(0, -26.5rem);
+}
+.line-2 {
+  transform: translate(0, -21.5rem);
+}
+.line-3 {
+  transform: translate(0, -16.95rem);
+}
+.line-4 {
+  transform: translate(0, -12.5rem);
+}
+.line-5 {
+  transform: translate(0, -7.95rem);
+}
+
+.horizontal-line {
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
 
 footer {
   margin-top: 10rem;

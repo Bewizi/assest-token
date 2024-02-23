@@ -108,6 +108,10 @@ h4 {
   padding-inline: 2%;
 }
 
+#newsletter {
+  margin-top: 10rem;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -153,4 +157,12 @@ h4 {
 
 .mt {
   margin-top: 1.5rem;
+}
+
+footer {
+  margin-top: 10rem;
+  padding: 5rem 0;
+  background-color: var(--dark-blue-main);
+  color: var(--white);
+  overflow: hidden;
 }

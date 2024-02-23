@@ -121,7 +121,7 @@ function prevSlide() {
   showSlide(currentIndex);
 }
 
-// Interval for auto-sliding (uncomment the line below if you want auto-sliding)
+// Interval for auto-sliding
 setInterval(nextSlide, 5000); // Adjust the time interval as needed
 
 // Initial slide

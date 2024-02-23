@@ -471,6 +471,11 @@ button {
   font-size: 0.867rem;
 }
 
+/*
+************************* 
+************************* 
+ */
+
 /* blog post */
 .blog-text {
   font-size: 1.15rem;
@@ -482,6 +487,11 @@ button {
 .blog-text span {
   text-decoration: underline;
 }
+
+/*
+************************* 
+************************* 
+ */
 
 /* community */
 .community {
@@ -530,4 +540,82 @@ button {
 
 .image-center {
   transform: translate(12.675rem);
+}
+
+/*
+************************* 
+************************* 
+ */
+
+.newsletter-content {
+  gap: 20rem;
+}
+
+.mail-box {
+  width: 10rem;
+}
+
+.newsletter-header h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.newsletter-header p {
+  color: var(--dark-blue);
+  font-size: 0.9375rem;
+  margin-top: 1rem;
+}
+
+.input-group {
+  border: 1px solid var(--dark-blue);
+  padding: 0.3rem;
+  border-radius: 0.3125rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  outline: none;
+  border: none;
+}
+
+.input-group input::placeholder {
+  color: var(--light-shade);
+  margin-left: 1.5rem;
+}
+
+.subscribe-btn {
+  background-color: var(--royal-blue);
+  color: var(--white);
+  padding: 0.5rem 0;
+  padding-inline: 2rem;
+  border-radius: 0.3125rem;
+  transform: translate(26.75rem);
+}
+
+.pricay-policy {
+  font-size: 0.875rem;
+  color: var(--dark-blue-main);
+}
+
+.pricay-policy a:link,
+.pricay-policy a:visited {
+  color: var(--royal-blue);
+}
+.pricay-policy a:hover,
+.pricay-policy a:active {
+  color: var(--royal-blue);
+}
+
+/* footer */
+.footer-grid-4-col {
+  display: grid;
+  grid-template-columns: 25rem 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.footer-input {
+  transform: translate(80%);
 }

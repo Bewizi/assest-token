@@ -62,9 +62,96 @@ h4 {
   font-size: 1.15rem;
 }
 
+/* header */
+.header {
+  max-width: 80rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.logo img {
+  width: 2.85rem;
+}
+
+/* nav */
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list ul li {
+  padding-right: 3.5rem;
+}
+
+.nav-list ul li:last-child {
+  padding-right: 0;
+}
+
+.link-list:link,
+.link-list:visited {
+  font-size: 0.95rem;
+  color: var(--dark-blue);
+  font-weight: lighter;
+}
+
+.link-list:hover,
+.link-list:active {
+  color: var(--dark-blue);
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+/* auth */
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  gap: 2rem;
+}
+
+.login:link,
+.login:visited {
+  color: var(--royal-blue);
+}
+.login:hover,
+.login:active {
+  background-color: var(--royal-blue);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.signup:link,
+.signup:visited {
+  background-color: var(--royal-blue);
+  padding: 0.8rem 1.5rem;
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.signup:hover,
+.signup:active {
+  background-color: #0e307bd2;
+  transition: all 0.5s ease-in-out;
+}
+/* end of header */
+
 .container {
   max-width: 75rem;
   margin: auto;
+  overflow: hidden;
 }
 
 #hero-section {

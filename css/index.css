@@ -155,7 +155,7 @@ h4 {
 }
 
 #hero-section {
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 #goals {
@@ -163,6 +163,7 @@ h4 {
   margin-bottom: 15rem;
   position: relative;
   font-family: "Euclid Circular A", sans-serif;
+  overflow: hidden;
 }
 
 #features {
@@ -176,12 +177,12 @@ h4 {
 }
 
 #get-started {
-  padding-top: 15rem;
+  padding-top: 8rem;
 }
 
 #testimonials {
   background-color: var(--light-pale-pink);
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 10rem 0;
   overflow: hidden;
 }
@@ -251,7 +252,7 @@ h4 {
 .line {
   width: 39.45rem;
   height: 0.1125rem;
-  background: var(--light-shade);
+  background: rgba(158, 158, 158, 0.666);
 }
 
 .line-1 {

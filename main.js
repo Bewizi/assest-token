@@ -122,7 +122,7 @@ function prevSlide() {
 }
 
 // Interval for auto-sliding
-setInterval(nextSlide, 5000); // Adjust the time interval as needed
+setInterval(nextSlide, 6000); // Adjust the time interval as needed
 
 // Initial slide
 showSlide(currentIndex);
